@@ -28,3 +28,9 @@ p{color:var(--muted);margin:0 0 18px}
 .badge{background:rgba(255,255,255,0.03);padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,0.025)}
 a.link{color:var(--accent);text-decoration:none}
 .empty{color:var(--muted);padding:20px}
+
+/* Accessibility: visible focus for keyboard users */
+.link:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+/* Improve contrast for description text */
+.repo-desc{color:#cbd7e3}

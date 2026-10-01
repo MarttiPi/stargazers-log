@@ -9,7 +9,10 @@
   <body>
     <h1>Stargazers log</h1>
     <p>A log of the repositories I've starred.</p>
-    <div id="stars" class="stars-list" aria-live="polite"></div>
+    <div id="stars" aria-live="polite" role="region" aria-label="Starred repositories"></div>
+    <noscript>
+      <div class="empty">JavaScript is required to load the starred repositories. You can view <a href="events.json">events.json</a> manually.</div>
+    </noscript>
     <script src="script.js" defer></script>
   </body>
 </html>
