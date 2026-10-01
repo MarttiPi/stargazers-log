@@ -1,0 +1,36 @@
+:root{
+  --bg: #0f1724;
+  --card: #0b1220;
+  --muted: #9aa4b2;
+  --accent: #38bdf8;
+  --glass: rgba(255,255,255,0.03);
+}
+*{box-sizing:border-box}
+body{
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin:0;
+  padding:24px;
+  background:linear-gradient(180deg,var(--bg),#06111a);
+  color:#e6eef6;
+}
+h1{margin:0 0 8px}
+p{color:var(--muted);margin:0 0 18px}
+.stars-list{display:grid;gap:12px;max-width:900px;margin-top:18px}
+.star-card{
+  background:linear-gradient(180deg,var(--card),var(--glass));
+  border-radius:10px;padding:14px;border:1px solid rgba(255,255,255,0.04);
+  display:flex;flex-direction:column;gap:6px;
+}
+.star-top{display:flex;justify-content:space-between;align-items:center}
+.repo-name{font-weight:600;color:#fff}
+.repo-desc{color:var(--muted);font-size:0.95rem}
+.meta{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:0.9rem}
+.badge{background:rgba(255,255,255,0.03);padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,0.025)}
+a.link{color:var(--accent);text-decoration:none}
+.empty{color:var(--muted);padding:20px}
+
+/* Accessibility: visible focus for keyboard users */
+.link:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+/* Improve contrast for description text */
+.repo-desc{color:#cbd7e3}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "repo": {
+      "name": "awesome-tool",
+      "owner": "alice",
+      "url": "https://github.com/alice/awesome-tool",
+      "description": "A small tool that does awesome things.",
+      "language": "JavaScript",
+      "stargazers_count": 420
+    },
+    "starred_at": "2026-09-28T14:12:00Z"
+  },
+  {
+    "id": 2,
+    "repo": {
+      "name": "neat-lib",
+      "owner": "bob",
+      "url": "https://github.com/bob/neat-lib",
+      "description": "A neat library for common tasks.",
+      "language": "Python",
+      "stargazers_count": 128
+    },
+    "starred_at": "2025-11-04T08:30:00Z"
+  },
+  {
+    "id": 3,
+    "repo": {
+      "name": "cli-helper",
+      "owner": "carol",
+      "url": "https://github.com/carol/cli-helper",
+      "description": "Tiny CLI utilities to speed up workflows.",
+      "language": "Go",
+      "stargazers_count": 64
+    },
+    "starred_at": "2024-06-15T19:45:00Z"
+  }
+]

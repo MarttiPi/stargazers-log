@@ -2,10 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
     <title>Stargazers log</title>
   </head>
   <body>
     <h1>Stargazers log</h1>
     <p>A log of the repositories I've starred.</p>
+    <div id="stars" aria-live="polite" role="region" aria-label="Starred repositories"></div>
+    <noscript>
+      <div class="empty">JavaScript is required to load the starred repositories. You can view <a href="events.json">events.json</a> manually.</div>
+    </noscript>
+    <script src="script.js" defer></script>
   </body>
 </html>
